@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tony Molele's IT Portfolio showcasing skills, experience, and certifications in IT and networking.">
+    <title>Tony Molele | IT & Graphic Design Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- For Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+</head>
+<body>
+    <header id="navbar">
+     
+        <div class="nav-links">
+            <div class="logo">Tony<span class="dot">.</span></div>
+            <a href="#" class="active" data-section="home" aria-label="Navigate to Home">Home</a>
+            <a href="#" data-section="services" aria-label="Navigate to Services">Services</a>
+            <a href="#" data-section="resume" aria-label="Navigate to Resume">Resume</a>
+            <a href="#" data-section="projects" aria-label="Navigate to Projects">Projects</a>
+            <a href="#" data-section="contact" aria-label="Navigate to Contact">Contact</a>
+
+            <button class="hire-btn" onclick="window.location='#contact'" aria-label="Hire me button">Hire me</button>
+        </div>
+        
+    </header>
+    <main>
+        <!-- HERO -->
+        <section id="home" class="section active">
+            <div class="hero-left">
+                <div class="role">IT Professional & Graphic Designer</div>
+                <h1>Hello, I'm <span class="highlighted">Tony Molele</span></h1>
+                <p>
+                    Enthusiastic IT Professional & Graphic Designer/Web Developer.<br>
+                    <span class="subtle">
+                        Passionate about optimizing infrastructure, security, and user satisfaction while creating visually appealing and user-friendly designs. Skilled in Programming, Networking, and Graphic Design.
+                    </span>
+                </p>
+                <div class="hero-actions">
+                    <a href="Tony Molele Modern Resume IT (Networking).pdf" class="btn-cyber" download aria-label="Download CV">Download CV</a>
+                    <a href="https://linkedin.com/in/tony-molele-dev-net100" target="_blank" aria-label="Visit LinkedIn Profile">
+                        <i class="material-icons">linkedin</i>
+                    </a>
+                </div>
+                <div class="hero-info">
+                    <div><b>1.5+</b> years IT Experience</div>
+                    <div><b>5+</b> IT Projects Delivered</div>
+                    <div><b>3+</b> Graphic Design Projects</div>
+                    <div><b>4+</b> Core Certifications</div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="Images\WhatsApp Image 2025-05-16 at 11.24.19.jpeg" alt="Avatar of Tony Molele" class="avatar">
+            </div>
+        </section>
+        <!-- SERVICES -->
+        <section id="services" class="section">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-index">01</span>
+                    <h3>Systems & Network Administration</h3>
+                    <p>Deploy, maintain & troubleshoot Windows, MacOS, and network systems. Firewall/VPN/ACL management. Azure/O365 integration.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-index">02</span>
+                    <h3>IT Security & Compliance</h3>
+                    <p>Implement secure authentication, access controls (PAM), and documentation. Enhance shared drives, license, & identity management.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-index">03</span>
+                    <h3>Tech Support & Training</h3>
+                    <p>Proven ability to diagnose complex IT issues. Deliver clear documentation and knowledge transfer for collaborative teams.</p>
+                </div>
+                <div class="service-card">
+                    <span class="service-index">04</span>
+                    <h3>Graphic Design & Web Development</h3>
+                    <p>Design visually appealing graphics and websites. Proficient in Adobe Illustrator, Photoshop, HTML, CSS, and JavaScript.</p>
+            </div>
+        </section>
+        <!-- RESUME -->
+        <section id="resume" class="section">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-flex">
+                <div class="resume-left">
+                    <ul class="resume-nav">
+                        <li class="active" data-tab="experience" aria-label="View Experience">Experience</li>
+                        <li data-tab="education" aria-label="View Education">Education</li>
+                        <li data-tab="skills" aria-label="View Skills">Skills</li>
+                        <li data-tab="about" aria-label="View About">About</li>
+                    </ul>
+                </div>
+                <div class="resume-right">
+                    <!-- Experience -->
+                    <div class="resume-content active" data-content="experience">
+                        <h3>Network IT Technician</h3>
+                        <div class="date">Apr 2024 – Aug 2024 | WBE (Ekurhuleni East College), Brakpan</div>
+                        <ul>
+                            <li>Designed & deployed wired networks for 20+ devices</li>
+                            <li>Troubleshot and resolved network bottlenecks</li>
+                            <li>Documented procedures for team training & scalability</li>
+                        </ul>
+                    </div>
+                    <!-- Education -->
+                    <div class="resume-content" data-content="education">
+                        <h3>NCV: IT & Computer Science (L2-L4)</h3>
+                        <div class="date">Ekurhuleni East College, Spring Campus | Expected Dec 2024</div>
+                        <div>Relevant coursework: Data Comm, Networking, IT Systems</div>
+                        <hr>
+                        <h3>Matric (High School Diploma)</h3>
+                        <div class="date">Alafang High School, 2020</div>
+                    </div>
+                    <!-- Skills -->
+                    <div class="resume-content" data-content="skills">
+                        <ul>
+                            <li><b>Programming Languages:</b> Python, JavaScript, Kotlin</li>
+                            <li><b>Graphic Design:</b> Adobe Illustrator, Photoshop</li>
+                            <li><b>Web Development:</b> HTML, CSS, JavaScript, React</li>
+                            <li><b>Database Management:</b> SQL, MongoDB, MS Access</li>
+                            <li><b>Version Control:</b> Git</li>
+                            <li><b>Tools:</b> Visual Studio Code, MS Visual Studio, npm, Docker</li>
+                        </ul>
+                        <hr>
+                        <div><b>Additional Skills:</b></div>
+                        <ul>
+                            <li>Strong problem-solving and analytical skills</li>
+                            <li>Excellent communication and teamwork abilities</li>
+                            <li>Continuous learner with a proactive approach to staying updated on industry trends</li>
+                        </ul>
+                    </div>
+                    <!-- About -->
+                    <div class="resume-content" data-content="about">
+                        <p>
+                        <b>Adaptable:</b> Thrive in fast-paced, deadline-oriented settings </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects & Achievements</h2>
+            <div class="projects-carousel">
+                <button class="carousel-btn prev" aria-label="Previous Project">
+                    <i class="material-icons">chevron_left</i>
+                </button>
+                <div class="carousel-track">
+                    <!-- Project 1 -->
+                    <div class="project-item" data-project="frontend-project">
+                        <div class="project-info">
+                            <span class="project-index">01</span>
+                            <h3 class="project-title">Frontend Project</h3>
+                            <p class="project-description">
+                                Developed a responsive e-commerce website using HTML5, CSS3, and JavaScript. Features include a product catalog, shopping cart, and checkout system.
+                            </p>
+                            <p class="project-tech">HTML5, CSS3, JavaScript</p>
+                            <div class="project-links">
+                                <button class="btn-cyber view-more" data-project="frontend-project" aria-label="View More Images">
+                                    View More
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="Front end Project\Screenshot (2).png" alt="Frontend Project Screenshot">
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-item" data-project="graphic-design">
+                        <div class="project-info">
+                            <span class="project-index">02</span>
+                            <h3 class="project-title">Graphic Design Portfolio</h3>
+                            <p class="project-description">
+                                Designed a portfolio showcasing graphic design projects, including branding, marketing materials, and web design mockups.
+                            </p>
+                            <p class="project-tech">Adobe Illustrator, Photoshop</p>
+                            <div class="project-links">
+                                <button class="btn-cyber view-more" data-project="graphic-design" aria-label="View More Images">
+                                    View More
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="Graphic design project\Screenshot 2024-01.png" alt="Graphic Design Portfolio Screenshot">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" aria-label="Next Project">
+                    <i class="material-icons">chevron_right</i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Modal for Viewing More Images -->
+        <div id="project-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-images"></div>
+            </div>
+        </div>
+
+        <!-- GRAPHIC DESIGN -->
+        <section id="graphic-design" class="section">
+            <h2 class="section-title">Graphic Design</h2>
+            <p class="section-description">
+                Combining creativity and technical expertise to deliver visually appealing designs. Skilled in tools like Adobe Illustrator and Photoshop.
+            </p>
+            <div class="design-projects-grid">
+                <div class="design-project-card">
+                    <h3>Brand Identity Design</h3>
+                    <p>Created a cohesive brand identity for a startup, including logo design, color palette, and typography guidelines.</p>
+                </div>
+                <div class="design-project-card">
+                    <h3>Marketing Campaign Graphics</h3>
+                    <p>Designed promotional materials such as posters, banners, and social media graphics for a local business.</p>
+                </div>
+                <div class="design-project-card">
+                    <h3>Web Design Mockups</h3>
+                    <p>Developed responsive web design mockups using Adobe XD and Photoshop, focusing on user experience and aesthetics.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Let's work together</h2>
+            <p class="contact-description">
+                Give me a shout if you have any questions or want to discuss a project. I'm here to help!
+            </p>
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Firstname" required>
+                        <input type="text" placeholder="Lastname" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" placeholder="Email address" required>
+                        <input type="tel" placeholder="Phone number" required>
+                    </div>
+                    <select required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="networking">Networking</option>
+                        <option value="cloud">Cloud Services</option>
+                        <option value="security">IT Security</option>
+                        <option value="support">Tech Support</option>
+                    </select>
+                    <textarea placeholder="Type your message here." rows="5" required></textarea>
+                    <button type="submit" class="btn-cyber">Send message</button>
+                </form>
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div>
+                        <i class="material-icons">phone</i>
+                        <a href="tel:+27698293002">+27 069 829 3002</a>
+                    </div>
+                    <div>
+                        <i class="material-icons">email</i>
+                        <a href="mailto:moleletony36@gmail.com">moleletony36@gmail.com</a>
+                    </div>
+                    <div>
+                        <i class="material-icons">location_on</i>
+                        Chris Hani Village, Germiston
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <span>Tony<span class="dot">.</span></span>
+            </div>
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/tony-molele-dev-net100" target="_blank" aria-label="LinkedIn">
+                    <i class="material-icons">linkedin</i>
+                </a>
+                <a href="https://github.com/Tonyteezy" target="_blank" aria-label="GitHub">
+                    <i class="material-icons">code</i>
+                </a>
+                <a href="https://x.com/TonyMolele" target="_blank" aria-label="Twitter">
+                    <i class="material-icons">twitter</i>
+                </a>
+            </div>
+            <p class="footer-text">© 2025 Tony Molele. IT Professional & Graphic Designer. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
